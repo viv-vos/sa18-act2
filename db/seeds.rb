@@ -7,3 +7,9 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Product.create!(name: 'Premium Milk Chocolate Bar', price: 5 , description: 'Creamy milk chocolate made in Belgium.')
+
+Product.create!(name: 'Premium Dark Chocolate Bar', price: 7 , description: '80% cocoa milk chocolate made in Belgium.')
+
+Product.create!(name: 'Premium Crispy Milk Chocolate Bar', price: 8 , description: 'Creamy milk chocolate with rice bits made in Belgium.')
